@@ -5,9 +5,7 @@ import SwiftData
 struct BudgetAppApp: App {
 	var body: some Scene {
 		WindowGroup {
-			// Placeholder root until views are added in the next steps
-			Text("BudgetApp")
-				.padding()
+			ContentView()
 		}
 		.modelContainer(for: [
 			Income.self,
